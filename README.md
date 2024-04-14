@@ -47,19 +47,6 @@ pip install -r requirements.txt
 streamlit run Home.py
 ```
 
-## Web Demo
-
-### [🎈Webserver Online Demo](https://roaddamagedetection.streamlit.app/)
-    
-    You can access the webserver demo on the streamlit cloud. But due to hardware limitations, some functions may not be working as intended. Such as, the realtime detection cannot capture the webcam input and slow inference on video detection.
-
-## Training
-
-### Prepare the Dataset
-
-Download the datasets from this [github](https://github.com/sekilab/RoadDamageDetector) and you can extract the *RDD2022.zip* files into this structure.
-
-```
 /home/oracl4/project/rdd/dataset/RDD2022/
 ├── RDD2022_all_countries
 │   ├── China_Drone
